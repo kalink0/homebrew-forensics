@@ -20,4 +20,4 @@ jobs:
       - name: Open bump pull requests
         env:
           HOMEBREW_GITHUB_API_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: brew bump --tap kalink0/forensics --cask --open-pr --no-fork
+        run: brew bump --tap kalink0/forensics --open-pr --no-fork

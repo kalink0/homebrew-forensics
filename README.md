@@ -7,6 +7,7 @@ Homebrew tap for Crush and other digital forensics tools.
 ```sh
 brew tap kalink0/forensics
 brew install --cask crush-forensics
+brew install peach-forensics
 ```
 
 ## Update
@@ -21,6 +22,7 @@ Upgrade installed apps with:
 
 ```sh
 brew upgrade --cask crush-forensics
+brew upgrade peach-forensics
 ```
 
 ## Maintenance
@@ -28,6 +30,7 @@ brew upgrade --cask crush-forensics
 This tap uses Homebrew's native cask conventions:
 
 - casks live in `Casks/`
+- formulae live in `Formula/`
 - version checks use `livecheck`
 - GitHub Actions run `brew audit`, `brew style`, and `brew livecheck`
 - scheduled update checks use `brew bump --tap`
