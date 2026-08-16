@@ -1,0 +1,23 @@
+name: Autobump
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  autobump:
+    if: github.repository == 'kalink0/homebrew-forensics'
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Tap local repository
+        run: brew tap --custom-remote kalink0/forensics "$GITHUB_WORKSPACE"
+      - name: Open bump pull requests
+        env:
+          HOMEBREW_GITHUB_API_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: brew bump --tap kalink0/forensics --open-pr --no-fork
