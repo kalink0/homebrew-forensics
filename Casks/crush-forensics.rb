@@ -17,6 +17,6 @@ cask "crush-forensics" do
   end
 
   depends_on :macos
+  
   app "Crush.app"
-
 end
