@@ -17,6 +17,8 @@ jobs:
       - uses: actions/checkout@v4
       - name: Tap local repository
         run: brew tap --custom-remote kalink0/forensics "$GITHUB_WORKSPACE"
+      - name: Trust tap
+        run: brew trust kalink0/forensics
       - name: Open bump pull requests
         env:
           HOMEBREW_GITHUB_API_TOKEN: ${{ secrets.GITHUB_TOKEN }}
