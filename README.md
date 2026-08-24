@@ -6,6 +6,7 @@ Homebrew tap for Crush and other digital forensics tools.
 
 ```sh
 brew tap kalink0/forensics
+brew trust kalink0/forensics
 brew install --cask crush-forensics
 brew install peach-forensics
 ```
