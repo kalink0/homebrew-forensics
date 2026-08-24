@@ -9,15 +9,8 @@ class PeachForensics < Formula
   end
 
   on_macos do
-    on_arm do
-      url "https://github.com/kalink0/peach-forensics/releases/download/v0.1.0/peach-macos-arm-v0.1.0.tar.gz"
-      sha256 "998dee6919d4c7c69d6a5924fcf52b8e50aa7cd05fbb20fca78cc249af323073"
-    end
-
-    on_intel do
-      url "https://github.com/kalink0/peach-forensics/releases/download/v0.1.0/peach-macos-intel-v0.1.0.tar.gz"
-      sha256 "1c4bc76690ce0256d2caef92c2331260e8c6e138a9e2f6b2803528f27a0f0b89"
-    end
+    url "https://github.com/kalink0/peach-forensics/releases/download/v0.2.1/peach-macos-v0.2.1.tar.gz"
+    sha256 "2d2be2829f5f4c247a00bfdeca5ec05affbef597492c1dee9cb75107121cf6d4"
   end
 
   def install
