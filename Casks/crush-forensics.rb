@@ -16,7 +16,7 @@ cask "crush-forensics" do
     strategy :github_latest
   end
 
-  depends_on :macos
+  depends_on macos: :ventura
 
   app "Crush.app"
 end
