@@ -14,9 +14,8 @@ jobs:
     if: github.repository == 'kalink0/homebrew-forensics'
     runs-on: macos-latest
     steps:
-      - uses: actions/checkout@v4
-      - name: Tap local repository
-        run: brew tap --custom-remote kalink0/forensics "$GITHUB_WORKSPACE"
+      - name: Tap repository
+        run: brew tap kalink0/forensics
       - name: Trust tap
         run: brew trust kalink0/forensics
       - name: Open bump pull requests
