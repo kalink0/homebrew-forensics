@@ -1,8 +1,8 @@
 class PeachForensics < Formula
   desc "Local-first forensic log viewer for DFIR timelines"
   homepage "https://github.com/kalink0/peach-forensics"
-  url "https://github.com/kalink0/peach-forensics/releases/download/v0.2.1/peach-macos-v0.2.1.tar.gz"
-  sha256 "2d2be2829f5f4c247a00bfdeca5ec05affbef597492c1dee9cb75107121cf6d4"
+  url "https://github.com/kalink0/peach-forensics/releases/download/v0.3.0/peach-macos-v0.3.0.tar.gz"
+  sha256 "3ec21d008adcf8aee3e253513b697532d0c16ea4c6ebfd0384f2c8d3cbb7b833"
   license "Apache-2.0"
 
   livecheck do
