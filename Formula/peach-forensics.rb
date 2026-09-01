@@ -1,5 +1,5 @@
 class PeachForensics < Formula
-  desc "Local-first forensic log viewer for DFIR timelines"
+  desc "Open source DFIR log workbench"
   homepage "https://github.com/kalink0/peach-forensics"
   url "https://github.com/kalink0/peach-forensics/releases/download/v0.4.1/peach-macos-v0.4.1.tar.gz"
   sha256 "5367fab926f21218633b3912b443e4b4d89aebd269518093094c40d344dac155"
