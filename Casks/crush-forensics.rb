@@ -18,5 +18,5 @@ cask "crush-forensics" do
 
   depends_on macos: :ventura
 
-  app "Crush.app"
+  app "crush.app", target: "Crush.app"
 end
