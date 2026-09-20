@@ -1,8 +1,8 @@
 class PeachForensics < Formula
   desc "Open source DFIR log workbench"
   homepage "https://github.com/kalink0/peach-forensics"
-  url "https://github.com/kalink0/peach-forensics/releases/download/v0.8.0/peach-macos-v0.8.0.tar.gz"
-  sha256 "d8851c636ec3f10d4bc43929f8e94177e46cb76e46aed44f8b55fda480696277"
+  url "https://github.com/kalink0/peach-forensics/releases/download/v0.9.0/peach-macos-v0.9.0.tar.gz"
+  sha256 "a2509f212704746e6493410e4b910b107154cf99869a0bc6dceb04efe7ffdb65"
   license "Apache-2.0"
 
   livecheck do
