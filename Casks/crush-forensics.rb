@@ -1,9 +1,9 @@
 cask "crush-forensics" do
   arch arm: "arm", intel: "intel"
 
-  version "0.20.0"
-  sha256 arm:   "db26bcfbfb2ab753c324b27ea59aeb60004b7f75fc0fdaf237523dfa09ae1b57",
-         intel: "8f5abf7994940ed7a250f6d48616cc7d088fcb3ac617b1da815625d07ee75a40"
+  version "0.21.0"
+  sha256 arm:   "ed279da9c705a4dafbd85403e3ab946c1ab8ce855e80e6ccb8dd917e31f72123",
+         intel: "f0e1a876bb467133840ec018f6134b01cc5f723caf3b0f9dde045f8a059dfa6b"
 
   url "https://github.com/kalink0/crush-forensics/releases/download/v#{version}/crush-macos-#{arch}-v#{version}.zip"
   name "Crush"
