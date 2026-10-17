@@ -15,7 +15,7 @@ cask "crush-forensics" do
     strategy :github_latest
   end
 
-  depends_on macos: :big_sur
+  depends_on :macos
 
   app "crush.app", target: "Crush.app"
 end
